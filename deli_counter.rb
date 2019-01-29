@@ -6,7 +6,7 @@ def line(array)
   if lineup == ""
     puts "The line is currently empty."
   else
-    puts lineup
+    puts "The line is currently: #{lineup}"
   end
 end
 
