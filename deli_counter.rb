@@ -1,7 +1,9 @@
 katz_deli = []
 
 def line(array)
-  if array.length == 0
+  lineup = ""
+  array.each {|x| lineup =
+  if lineup == ""
     puts "The line is currently empty."
   end
 end
