@@ -5,6 +5,8 @@ def line(array)
   array.each {|x| lineup << x}
   if lineup == ""
     puts "The line is currently empty."
+  else
+    puts lineup
   end
 end
 
